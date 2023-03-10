@@ -63,7 +63,6 @@ export default class SceneMainMenu extends Scene {
           break;
       }
     }
-
     return null;
   }
 

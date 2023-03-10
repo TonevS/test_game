@@ -283,7 +283,6 @@ export default class LevelOne extends Level {
     if (this.dialogueStarted) {
       this.dialogue.render(canvas);
     }
-
     this.tutorial.render(canvas);
 
     CanvasUtil.fillRectangle(canvas, 0, 0, canvas.width, this.blackBarLength, 'black');
